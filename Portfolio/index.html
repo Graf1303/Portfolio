@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Russell Graf | Web Developer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="nav">
+    <h1>Russell Graf</h1>
+    <ul class="nav-list">
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+  <!-- Hero Starts -->
+  <section class="hero" alt="about">
+    <img src="assets/me.JPG" alt="hero-picture" loading="lazy" class="hero-img">
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">I'm Russell Graf, a detail-oriented and analytical self-taught Front-End Developer striving to
+        help you turn your dream into a reality. </p>
+
+    </div>
+
+
+  </section>
+  <!-- More about-->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Born and raised in New Jersey, My family moved to Texas when I was 8 years old.
+    </p>
+    <p>
+      At age 16, I shot my first gun and fell in love with the intricacies of firearms.
+    </p>
+    <p>
+      ver since the age of 21, I have worked within the Firearms Industry
+    </p>
+  </section>
+  <!--Skills section-->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-tailwind-css.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!--More Skills need to update CSS and link-->
+  <!-- <section class="more-skills" id="more-skills">
+    <h2 class="skill-header">Familiar Skills</h2>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-excel.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-word.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-mailchimp.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+    </div>
+  </section> -->
+  <!--Projects section-->
+  <h2 class="projects-title">Projects Coming Soon...</h2>
+  <!--Contact section-->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xzbnnrvq" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--Social accounts-->
+  <div class="socials">
+    <a href="https://instagram.com/_russellgraf/" target="_blank"><img src="assets/icons/icons8-instagram.gif"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+  </div>
+  <!--Scroll to top-->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="scroll-up" /></i>
+  <!--Footer section-->
+  <footer>
+    <p class="copy">&copy; Copyright 2024</p>
+    <p class="copy">
+      Built by
+      <a href="https://instagram.com/_russellgraf/" target="_blank">Russell Graf</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
