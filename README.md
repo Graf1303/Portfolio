@@ -1,3 +1,2 @@
 # Portfolio
-This is my first portfolio
-This portfolio is going to be my first step into professional Front-end Development. 
+This is my first portfolio and is going to be my first step into professional Front-end Development. 
